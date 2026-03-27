@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Gahyun Choi\\Desktop\\\uBC31\uC900\\hello world\\",
+  "WorkspaceRootPath": "C:\\Users\\Gahyun Choi\\Desktop\\baekjoon\\String\\hello world\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{66DC3549-1C38-4FB4-8CB1-BDD1DA5F404C}|hello world\\hello world.vcxproj|C:\\Users\\Gahyun Choi\\Desktop\\\uBC31\uC900\\hello world\\hello world\\11328.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{66DC3549-1C38-4FB4-8CB1-BDD1DA5F404C}|hello world\\hello world.vcxproj|C:\\Users\\Gahyun Choi\\Desktop\\baekjoon\\String\\hello world\\hello world\\11328.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{66DC3549-1C38-4FB4-8CB1-BDD1DA5F404C}|hello world\\hello world.vcxproj|solutionrelative:hello world\\11328.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "11328.cpp",
-              "DocumentMoniker": "C:\\Users\\Gahyun Choi\\Desktop\\\uBC31\uC900\\hello world\\hello world\\11328.cpp",
+              "DocumentMoniker": "C:\\Users\\Gahyun Choi\\Desktop\\baekjoon\\String\\hello world\\hello world\\11328.cpp",
               "RelativeDocumentMoniker": "hello world\\11328.cpp",
-              "ToolTip": "C:\\Users\\Gahyun Choi\\Desktop\\\uBC31\uC900\\hello world\\hello world\\11328.cpp",
+              "ToolTip": "C:\\Users\\Gahyun Choi\\Desktop\\baekjoon\\String\\hello world\\hello world\\11328.cpp",
               "RelativeToolTip": "hello world\\11328.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-03-27T03:28:49.058Z",
               "EditorCaption": ""
