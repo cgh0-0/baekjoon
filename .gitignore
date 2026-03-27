@@ -1,0 +1,19 @@
+# 1. Compiled Binary Files (실행 파일 무시)
+*.exe
+*.out
+*.app
+
+# 2. IDE and Editor Folders (편집기 설정 무시)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 3. OS Generated Files (운영체제 임시 파일 무시)
+Thumbs.db
+.DS_Store
+
+# 4. Debugging Information (디버그 정보 무시)
+*.pdb
+*.obj
+*.o
