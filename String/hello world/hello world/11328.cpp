@@ -13,19 +13,20 @@ int main()
 		std::string stre;
 		std::cin >> stre;
 		int abc[26] = { 0 };
+		int def[26] = { 0 };
 		bool possible = false;
 		for (int i = 0; i < str.size(); ++i)
 		{
-			abc[str[i] - 'a'] = 1;
+			abc[str[i] - 'a'] += 1;
 		}
 		for (int i = 0; i < stre.size(); ++i)
 		{
-			if (str.size() != stre.size())
-			{
-				possible = false;
-				break;
-			}
-			if (abc[stre[i] - 'a'] == 1)
+			def[stre[i] - 'a'] += 1;
+
+		}
+		for (int i = 0; i < 26; ++i)
+		{
+			if (abc[i] == def[i])
 			{
 				possible = true;
 			}
@@ -35,6 +36,7 @@ int main()
 				break;
 			}
 		}
+
 		if (possible)
 		{
 			std::cout << "Possible" << '\n';
