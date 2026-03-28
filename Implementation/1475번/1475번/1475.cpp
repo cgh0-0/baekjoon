@@ -1,4 +1,4 @@
-#include<iostream>
+﻿#include<iostream>
 #include<string>
 int main()
 {
@@ -22,12 +22,12 @@ int main()
 			{
 				if (arr[i] % 2 != 0)
 				{
-					max = (arr[i] / 2) + 1;
+					max += (arr[i] / 2) + 1;
 				}
 				else if (arr[i] % 2 == 0)
 				{
 
-					max = arr[i] / 2;
+					max += arr[i] / 2;
 				}
 				else if (arr[i] == 1)
 				{
@@ -35,7 +35,7 @@ int main()
 					{
 						max = 1;
 					}
-					
+					//6699입력시 오류 
 				}
 				continue;
 			}	
