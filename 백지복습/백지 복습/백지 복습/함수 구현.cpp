@@ -2,23 +2,28 @@
 #include<string>
 int main()
 {
-	std::string input;
-	std::cin >> input;
-	int arr[10] = { 0 };
-	for (int i = 0; i < input.size(); ++i)
+	std::string str;
+	std::string rts;
+	std::cin >> str;
+	std::cin >> rts;
+	int count = 0;
+	int arr[26] = { 0 };
+	for (int i = 0; i < str.size(); ++i)
 	{
-		arr[input[i] - '0'] += 1;
+		arr[str[i] - 'a'] += 1;
 	}
-	arr[6] += arr[9];
-	arr[6] = (arr[6] + 1) / 2;//만약 2로 안나눠지고 .5로 떨어지면 올림 해줘야 되어서 +1
-	arr[9] = 0;
-	int max = 0;
-	for (int i = 0; i < 10; ++i)
+	for (int i = 0; i < rts.size(); ++i)
 	{
-		if (arr[i] > max)
+		arr[rts[i] - 'a'] -= 1;
+		if (arr[i] < 0)
 		{
-			max = arr[i];
+			count += arr[i] * (-1);
 		}
+		else if (arr[i] > 0)
+		{
+			count += arr[i];
+		}
+
 	}
-	std::cout << max;
+	std::cout << count;
 }
