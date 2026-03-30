@@ -4,11 +4,11 @@ int main()
 {
 	int T;
 	std::cin >> T;
-	
-	for(int j=0;j<T;++j)
+
+	for (int j = 0; j < T; ++j)
 	{
 		int arr[26] = { 0 };
-		int karr[26] = { 0 };
+		bool im = true;
 		std::string str;
 		std::string estr;
 		std::cin >> str;
@@ -24,18 +24,26 @@ int main()
 		}
 		for (int i = 0; i < estr.size(); ++i)
 		{
-			karr[estr[i] - 'a'] += 1;
+			arr[estr[i] - 'a'] -= 1;
 		}
-		for (int i = 0; i < estr.size(); ++i)
+		for (int i = 0; i < 26; ++i)
 		{
-			if (arr[i] != karr[i])
+			if (arr[i]<0)
 			{
-				std::cout << "Impossible" << '\n';
-				break;
+				im = false;
+				continue;
 			}
-			
+
 		}
-		std::cout << "Possible" << '\n';
+		if (im)
+		{
+			std::cout << "Possible" << '\n';
+		}
+		else
+		{
+			std::cout << "Impossible" << '\n';
+		}
+		
 	}
 
 }
