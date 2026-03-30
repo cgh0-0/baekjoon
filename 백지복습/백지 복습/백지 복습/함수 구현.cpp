@@ -22,18 +22,17 @@ int main()
 		{
 			arr[str[i] - 'a'] += 1;
 		}
+		// 2nd string loop: Check while decrementing
 		for (int i = 0; i < estr.size(); ++i)
 		{
-			arr[estr[i] - 'a'] -= 1;
-		}
-		for (int i = 0; i < 26; ++i)
-		{
-			if (arr[i]<0)
+			arr[estr[i] - 'a'] -= 1; // Subtract the count
+
+			// If it becomes negative, it means 'estr' has more of this alphabet
+			if (arr[estr[i] - 'a'] < 0)
 			{
 				im = false;
-				continue;
+				break; // Exit the loop early
 			}
-
 		}
 		if (im)
 		{
