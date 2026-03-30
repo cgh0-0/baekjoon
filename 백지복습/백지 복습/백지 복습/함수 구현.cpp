@@ -31,7 +31,7 @@ int main()
 			if (arr[i] != karr[i])
 			{
 				std::cout << "Impossible" << '\n';
-				continue;
+				break;
 			}
 			
 		}
