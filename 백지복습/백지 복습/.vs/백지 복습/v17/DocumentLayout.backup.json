@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Gahyun Choi\\Desktop\\baekjoon\\\uBC31\uC9C0\uBCF5\uC2B5\\\uBC31\uC9C0 \uBCF5\uC2B5\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{20F7FD5E-1E9E-4C58-A315-6BC594BD03BF}|\uBC31\uC9C0 \uBCF5\uC2B5\\\uBC31\uC9C0 \uBCF5\uC2B5.vcxproj|C:\\Users\\Gahyun Choi\\Desktop\\baekjoon\\\uBC31\uC9C0\uBCF5\uC2B5\\\uBC31\uC9C0 \uBCF5\uC2B5\\\uBC31\uC9C0 \uBCF5\uC2B5\\\uD568\uC218 \uAD6C\uD604.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{20F7FD5E-1E9E-4C58-A315-6BC594BD03BF}|\uBC31\uC9C0 \uBCF5\uC2B5\\\uBC31\uC9C0 \uBCF5\uC2B5.vcxproj|solutionrelative:\uBC31\uC9C0 \uBCF5\uC2B5\\\uD568\uC218 \uAD6C\uD604.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "\uD568\uC218 \uAD6C\uD604.cpp",
+              "DocumentMoniker": "C:\\Users\\Gahyun Choi\\Desktop\\baekjoon\\\uBC31\uC9C0\uBCF5\uC2B5\\\uBC31\uC9C0 \uBCF5\uC2B5\\\uBC31\uC9C0 \uBCF5\uC2B5\\\uD568\uC218 \uAD6C\uD604.cpp",
+              "RelativeDocumentMoniker": "\uBC31\uC9C0 \uBCF5\uC2B5\\\uD568\uC218 \uAD6C\uD604.cpp",
+              "ToolTip": "C:\\Users\\Gahyun Choi\\Desktop\\baekjoon\\\uBC31\uC9C0\uBCF5\uC2B5\\\uBC31\uC9C0 \uBCF5\uC2B5\\\uBC31\uC9C0 \uBCF5\uC2B5\\\uD568\uC218 \uAD6C\uD604.cpp",
+              "RelativeToolTip": "\uBC31\uC9C0 \uBCF5\uC2B5\\\uD568\uC218 \uAD6C\uD604.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-29T12:09:31.406Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
