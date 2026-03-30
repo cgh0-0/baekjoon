@@ -2,47 +2,23 @@
 #include<string>
 int main()
 {
-	int T;
-	std::cin >> T;
-
-	for (int j = 0; j < T; ++j)
+	std::string input;
+	std::cin >> input;
+	int arr[10] = { 0 };
+	for (int i = 0; i < input.size(); ++i)
 	{
-		int arr[26] = { 0 };
-		bool im = true;
-		std::string str;
-		std::string estr;
-		std::cin >> str;
-		std::cin >> estr;
-		if (str.size() != estr.size())
-		{
-			std::cout << "Impossible" << '\n';
-			continue;
-		}
-		for (int i = 0; i < str.size(); ++i)
-		{
-			arr[str[i] - 'a'] += 1;
-		}
-		// 2nd string loop: Check while decrementing
-		for (int i = 0; i < estr.size(); ++i)
-		{
-			arr[estr[i] - 'a'] -= 1; // Subtract the count
-
-			// If it becomes negative, it means 'estr' has more of this alphabet
-			if (arr[estr[i] - 'a'] < 0)
-			{
-				im = false;
-				break; // Exit the loop early
-			}
-		}
-		if (im)
-		{
-			std::cout << "Possible" << '\n';
-		}
-		else
-		{
-			std::cout << "Impossible" << '\n';
-		}
-		
+		arr[input[i] - '0'] += 1;
 	}
-
+	arr[6] += arr[9];
+	arr[6] = (arr[6] + 1) / 2;//만약 2로 안나눠지고 .5로 떨어지면 올림 해줘야 되어서 +1
+	arr[9] = 0;
+	int max = 0;
+	for (int i = 0; i < 10; ++i)
+	{
+		if (arr[i] > max)
+		{
+			max = arr[i];
+		}
+	}
+	std::cout << max;
 }
