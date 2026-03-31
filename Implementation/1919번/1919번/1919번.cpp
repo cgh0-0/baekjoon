@@ -15,6 +15,10 @@ int main()
 	for (int i = 0; i < rts.size(); ++i)
 	{
 		arr[rts[i] - 'a'] -= 1;
+
+	}
+	for (int i = 0; i < 26; ++i)
+	{
 		if (arr[i] < 0)
 		{
 			count += arr[i] * (-1);
@@ -23,7 +27,6 @@ int main()
 		{
 			count += arr[i];
 		}
-
 	}
 	std::cout << count;
 }
