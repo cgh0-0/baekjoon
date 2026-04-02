@@ -37,19 +37,23 @@ int main()
 		case 'B':
 			if (*it != second.front())
 			{
-				auto iter = it;
+				/*auto iter = it;
 				for (iter; iter != second.end(); ++iter)
 				{
 					char nxt = *(++iter);
 					*iter = nxt;
 				}
-				second.pop_back();
+				second.pop_back();*/
+				auto iter = it;
+				--it;
+				second.erase(iter);
+				
 			}
 			break;
 		case 'P':
 			char b;
 			std::cin >> b;
-			second.push_back(b);
+			second.insert(it,b);
 			
 
 		}
