@@ -1,18 +1,19 @@
-//#include<bits/stdc++.h>
+
 #include<iostream>
-#include<list>
 #include<string>
+#include<list>
 int main()
 {
 	std::string frist;
 	std::cin >> frist;
 	std::list<char> second;
-	std::list<char>::iterator it = second.end();
+
 	for (int i = 0; i < frist.length(); ++i)
 	{
 		second.push_back(frist[i]);
-		
+
 	}
+	std::list<char>::iterator it = second.end();
 	--it;
 	int n;
 	std::cin >> n;
@@ -20,10 +21,10 @@ int main()
 	{
 		char a;
 		std::cin >> a;
-		switch(a)
+		switch (a)
 		{
 		case 'L':
-			if (*it != second.front())
+			if (it != second.begin())
 			{
 				--it;
 			}
@@ -44,8 +45,12 @@ int main()
 					*iter = nxt;
 				}
 				second.pop_back();*/
+				if (it == second.end())
+				{
+					--it;
+				}
 				auto iter = it;
-				--it;
+				--iter;
 				second.erase(iter);
 				
 			}
@@ -53,10 +58,21 @@ int main()
 		case 'P':
 			char b;
 			std::cin >> b;
-			second.insert(it,b);
-			
+			second.insert(it, b);
+			break;
 
 		}
+		std::cout << "cursor statement:";
+		if (it==second.end())
+		{
+			std::cout << "nullptr" << std::endl;
+		}
+		else
+		{
+			std::cout << *it << std::endl;
+		}
+
+
 	}
 	std::list<char>::iterator a = second.begin();
 	for (a; a != second.end(); ++a)

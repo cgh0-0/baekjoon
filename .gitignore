@@ -17,3 +17,12 @@ Thumbs.db
 *.pdb
 *.obj
 *.o
+
+.vs/
+x64/
+x86/
+Debug/
+Release/
+*.user
+*.VC.db
+*.VC.opendb
