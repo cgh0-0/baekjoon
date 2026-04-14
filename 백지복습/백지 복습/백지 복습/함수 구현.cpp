@@ -1,29 +1,68 @@
 ﻿#include<iostream>
 #include<string>
+#include<list>
 int main()
 {
-	std::string str;
-	std::string rts;
-	std::cin >> str;
-	std::cin >> rts;
-	int count = 0;
-	int arr[26] = { 0 };
-	for (int i = 0; i < str.size(); ++i)
+	std::string s;
+	std::cin >> s;
+	std::list<char> li;
+	for (int i = 0; i < s.size(); ++i)
 	{
-		arr[str[i] - 'a'] += 1;
+		li.push_back(s[i]);
 	}
-	for (int i = 0; i < rts.size(); ++i)
+	
+	int M;
+	std::cin >> M;
+	std::list<char>::iterator cursor = li.end();
+	for (int i = 0; i < M; ++i)
 	{
-		arr[rts[i] - 'a'] -= 1;
-		if (arr[i] < 0)
+		char e;
+		std::cin >> e;
+		switch(e)
 		{
-			count += arr[i] * (-1);
+		case 'L':
+			if(cursor!=li.begin())
+			{
+				--cursor;
+			}
+
+			break;
+		case 'D':
+		
+			if (cursor != li.end())
+			{
+				++cursor;
+			}
+
+
+			break;
+		case 'B':
+
+			if (cursor != li.begin())
+			{
+				auto a = cursor;
+				--a;
+				li.erase(a);
+			}
+
+
+
+			break;
+		case 'P':
+			char a;
+			std::cin >> a;
+			li.insert(cursor, a);
+			
+			break;
 		}
-		else if (arr[i] > 0)
-		{
-			count += arr[i];
-		}
+		
 
 	}
-	std::cout << count;
+	for (auto iter = li.begin(); iter != li.end(); ++iter)
+	{
+
+		std::cout << (char)*iter;
+	}
+
+
 }

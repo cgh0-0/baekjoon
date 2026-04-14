@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{20F7FD5E-1E9E-4C58-A315-6BC594BD03BF}|\uBC31\uC9C0 \uBCF5\uC2B5\\\uBC31\uC9C0 \uBCF5\uC2B5.vcxproj|solutionrelative:\uBC31\uC9C0 \uBCF5\uC2B5\\\uD568\uC218 \uAD6C\uD604.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\xstring||{3B902123-F8A7-4915-9F01-361F908088D0}|"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\list||{3B902123-F8A7-4915-9F01-361F908088D0}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,14 +22,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "xstring",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\xstring",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\xstring",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\xstring",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\xstring",
-              "ViewState": "AgIAAMcIAAAAAAAAAAAuwNwIAAAzAAAAAAAAAA==",
+              "Title": "list",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\list",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\list",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\list",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\list",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAewLIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-03-30T11:45:32.749Z"
+              "WhenOpened": "2026-04-14T11:57:46.067Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -39,9 +40,9 @@
               "RelativeDocumentMoniker": "\uBC31\uC9C0 \uBCF5\uC2B5\\\uD568\uC218 \uAD6C\uD604.cpp",
               "ToolTip": "C:\\Users\\Gahyun Choi\\Desktop\\baekjoon\\\uBC31\uC9C0\uBCF5\uC2B5\\\uBC31\uC9C0 \uBCF5\uC2B5\\\uBC31\uC9C0 \uBCF5\uC2B5\\\uD568\uC218 \uAD6C\uD604.cpp*",
               "RelativeToolTip": "\uBC31\uC9C0 \uBCF5\uC2B5\\\uD568\uC218 \uAD6C\uD604.cpp*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA0wDQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-03-30T11:45:10.073Z",
+              "WhenOpened": "2026-04-14T11:52:42.258Z",
               "EditorCaption": ""
             }
           ]
