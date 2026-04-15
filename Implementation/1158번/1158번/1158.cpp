@@ -10,18 +10,24 @@ int main()
 	{
 		one.push_back(i);
 	}
+	std::list<int>::iterator it = one.begin();
 	for (int i = 0; i < N; ++i)
 	{
-		for (int j = 0; j < K-1; ++j)
+		for (int j = 0; j < K - 1; ++j)
 		{
-			int tmp = one.front();
-			one.push_back(tmp);
-			one.pop_front();
+			if (it == one.end())
+			{
+				it = one.begin();
+			}
+			++it;
+			if (it == one.end())
+			{
+				it = one.begin();
+			}
 		}
-		two.push_back(one.front());
-		one.pop_front();
+		two.push_back(*it);
+		it=one.erase(it);
 	}
-
 	std::list<int>::iterator iter = two.begin();
 	std::cout << "<";
 	for (iter; iter != two.end(); ++iter)
